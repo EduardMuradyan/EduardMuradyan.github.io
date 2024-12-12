@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.personal-info h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.title {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.contact-info {
+    font-size: 1em;
+    color: #777;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2C3E50;
+}
+
+section p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+ul li {
+    font-size: 1em;
+    color: #555;
+}
+
+.job, .degree, .project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
